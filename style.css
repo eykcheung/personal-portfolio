@@ -109,3 +109,23 @@ h3 {
     border-top: 1px solid rgba(0,0,0,.1);
   }
 }
+
+.summary-header {
+  text-align: center;
+  font-size: 18px;
+}
+
+.summary-body {
+  font-size: 16px;
+}
+
+.aspectRatioBox {
+  padding-top: calc(3 / 2 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.e-mail-address {
+  text-decoration: none;
+  color: rgba(70, 121, 168, 1);
+}
