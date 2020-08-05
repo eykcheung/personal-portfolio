@@ -1,3 +1,75 @@
 body {
   font-family: "Open Sans";
 }
+
+.container-fluid {
+  width: 100%;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.hero-col {
+  border: 5px solid red;
+}
+
+.hero-row {
+  border: 5px solid green;
+}
+
+#hero {
+  background-image: url(./images/hero-image.jpg);
+  display: flex;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.caption-1 {
+  border: 2px solid white;
+  margin: 0 auto;
+}
+
+.caption-2 {
+  margin-top: 20px;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.github, .linked-in {
+  display: inline-block;
+  padding: 15px 30px 10px;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 48px;
+}
+
+h5 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+.navbar {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, .2);
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.navbar-brand, .nav-link {
+  color: white
+}
